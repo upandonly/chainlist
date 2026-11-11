@@ -15154,6 +15154,20 @@ export const extraRpcs = {
   6736: {
     rpcs: ["https://api.windcrypto.com/rpc"],
   },
+  99901: {
+    rpcs: [
+      {
+        url: "https://elysium-rpc.publicnode.com",
+        tracking: "none",
+        trackingDetails: privacyStatement.publicnode,
+      },
+      {
+        url: "wss://elysium-rpc.publicnode.com",
+        tracking: "none",
+        trackingDetails: privacyStatement.publicnode,
+      },
+    ],
+  },
 };
 
 export default extraRpcs;
